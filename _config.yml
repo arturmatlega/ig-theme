@@ -31,7 +31,6 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/blog/:title:output_ext
 theme: minima
 
 # Sass
@@ -51,6 +50,7 @@ plugins:
 ampdir: amp
 
 defaults:
+  
   #### languages ####
   -
     scope:
@@ -65,14 +65,14 @@ defaults:
       path: "us"
     values:
       lang: "us"
-      full-lang: 'en-US'
+      full-lang: "en-US"
   -
     scope:
       path: "_posts/us"
     values:
       lang: "us"
-      full-lang: 'en-US'
-      categories: "us"
+      full-lang: "en-US"
+      permalink: /us/blog/:title:output_ext
 
   #### PL ####
   -
@@ -87,5 +87,4 @@ defaults:
     values:
       lang: "pl"
       full-lang: "pl"
-      categories: "pl"
-  -
+      permalink: /pl/blog/:title:output_ext
