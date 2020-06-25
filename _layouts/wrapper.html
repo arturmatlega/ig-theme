@@ -5,10 +5,17 @@
         {% seo %}
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v=1">
     </head>
-    <body>
-        {% include top-line.html %}       
-         
-        {{ content }} 
+    <body>    
+        <div class="beams-wrapper global-beam-wrapper">
+         <div class="beam">
+             <div class="beam-item">
+                 
+                {% include top-line.html %}   
+
+                {{ content }} 
         
+             </div>
+         </div>
+        </div>
     </body>
 </html>

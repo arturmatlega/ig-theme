@@ -1,10 +1,10 @@
-title: projets.pl
-email: studio@projets.pl
-description: Spraw, aby Twoja firma postrzegana była jako innowacyjna. Postaw na profesjonalną stronę www, dedykowaną aplikację internetową i zbuduj pozycję swojej marki.
+title: "instalguru"
+email: ""
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://millto.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: projetspl
-github_username:  projetspl
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ""
+github_username:  ""
 lang: "pl"
 
 markdown: kramdown

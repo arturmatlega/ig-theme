@@ -1,4 +1,2 @@
-# Projets
-v 2.0
-
-Software House website.
+# ig-theme
+v 0.1
