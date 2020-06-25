@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.0.0"
-gem "minima", "~> 2.5"
+gem 'jekyll-seo-tag'
 gem 'jekyll-toc', '~> 0.12.2'
 gem 'jekyll-sitemap'
 

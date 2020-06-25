@@ -1,6 +1,14 @@
-{% include top-line.html %}
-
-<h1>Test</h1>
-
-
-{{ content }}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'pl' }}">
+    <head>
+        {% include head.html %}
+        {% seo %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v=1">
+    </head>
+    <body>
+        {% include top-line.html %}       
+         
+        {{ content }} 
+        
+    </body>
+</html>
