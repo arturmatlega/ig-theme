@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'pl' }}">
+    <head>
+        {% include head.html %}
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                  "@type": "WebSite",
+                  "name": "{{site.title}}",
+                  "url": "{{site.url}}"
+                },
+                {
+                  "@type": "FAQPage",
+                  "mainEntity": [
+                  {% for question in page.faq %}
+                    {% if question.question and question.answer%}  
+                      {
+                        "@type": "Question",
+                        "name": "{{question.question}}",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "{{question.answer}}"
+                        }
+                      }
+                      {% if forloop.last == false %}
+                        ,
+                      {%endif%}
+                    {%endif%}
+                  {% endfor %}
+                  ]
+                }
+            ]
+        }
+        </script>
+        <!--Dane struklturalne dla każdego layoutu-->
+    </head>
+    <body>    
+        {% include top-line.html %}
+        <div class="beams-wrapper global-beam-wrapper">
+            <main class="beam">
+                <div class="beam-item">
+                  <nav class="breadcrumbs">
+                    <ol>
+                    {% for page in site.pages %}
+                      {% if  page.pagename == "home" %}
+                        <li><a href="{{page.url}}">{{page.menu_title}}</a></li>                        
+                      {% endif %}
+                    {% endfor %}
+                    {% for page in site.pages %}
+                      {% if  page.pagename == "blog" %}
+                        <li><a href="{{page.url}}">{{page.menu_title}}</a></li>   
+                      {% endif %}
+                    {% endfor %}
+                        <li><a href="{{page.url}}">{{page.title}}</a></li>   
+                    </ol>
+                  </nav>
+                </div>
+                <article class="beam-item">
+                  <header>
+                    <h1>{{page.title}}</h1>
+                    {{page.intro | markdownify }}
+                    <figure>
+                        <img src="{{ page.photo  | absolute_url}}" class="img" alt="{{page.photo_desc}}">
+                        <figcaption>{{page.photo_desc}}</figcaption>
+                    </figure>
+                  </header>
+                  <!-- {{page.page_content | markdownify }} -->
+                  <nav class="table-of-content">
+                    <span class="title">Spis treści</span>
+                    {% toc %}
+                </nav>
+
+                {{ content | inject_anchors }}
+                
+                <section>
+                  <h2>FAQ</h2>
+                  {% for question in page.faq %}
+                    {% if question.question and question.answer%}
+                    <section class="faq distinction distinction-question">
+                      <h3 class="h4"> {{question.question}}</h3>
+                      <p>{{question.answer}}</p>
+                    </section>
+                    {%endif%}
+                  {% endfor %}
+
+
+
+                </section>
+                  <footer class="publication-author">
+                    <div class="photo">
+                      <img src="{{ page.author_photo  | absolute_url}}" class="img" alt="{{page.author_name}}">
+                    </div>
+                    <div class="details">
+                      <span class="name">{{site.data.translations.author}}: {{page.author_name}}</span>
+                      <span class="desc">{{page.author_desc}}</span>
+                    </div>
+                  </footer>
+                </article>
+                <section class="beam-item posts">       
+                  <h2 class="h1">{{site.data.translations.lastPosts}}</h2>
+                  <p>{{ page.blog_intro | markdownify }}</p>
+                  <ul class="beam b-size-6 posts-grid">
+                    {% assign related = site.posts %}
+                    {% for post in related limit: 2 %}
+                          <li class="beam-item b-size-3">
+                            {% include post-item.html %}
+                          </li>
+                    {% endfor %}
+                  </ul>
+                </section>
+            </main>
+        </div>
+        {% include footer.html %}   
+    </body>
+</html>

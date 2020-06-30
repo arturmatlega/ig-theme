@@ -1,0 +1,10 @@
+<a href="{{ post.url }}" class="post-item">
+    <div class="photo">
+        <div class="img-box img-ratio-16-9">
+             <img src="{{ post.photo }}" class="img" alt="{{ post.photo_desc}}"">
+        </div>        
+    </div>
+    <div class="info"><p>{{ post.date  | date: '%d-%m-%Y'}} | {{ post.author_name }}</p></div>
+    <div class="title"><h3>{{ post.title }}</h3></div>
+    <div class="intro"><p>{{ post.small-intro }}</p></div>
+</a>

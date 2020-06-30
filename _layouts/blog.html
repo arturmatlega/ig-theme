@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'pl' }}">
+    <head>
+        {% include head.html %}
+        <!--Dane struklturalne dla każdego layoutu-->
+    </head>
+    <body>    
+        {% include top-line.html %}
+        <div class="beams-wrapper global-beam-wrapper">
+          <main class="beam">
+            <div class="beam-item">
+              <nav class="breadcrumbs">
+                <ol>
+                {% for page in site.pages %}
+                  {% if  page.pagename == "home" %}
+                    <li><a href="{{page.url}}">{{page.menu_title}}</a></li>                        
+                  {% endif %}
+                {% endfor %}
+                <li><a href="{{page.url}}">{{page.menu_title}}</a></li>
+                </ol>
+              </nav>
+            </div>
+            <section class="beam-item posts">       
+              <h1>{{page.page_header}}</h2>
+              {{content}}
+              <ul class="beam b-size-6 posts-grid">
+                {% assign related = site.posts %}
+                {% for post in related %}
+                      <li class="beam-item b-size-3">
+                        {% include post-item.html %}
+                      </li>
+                {% endfor %}
+              </ul>
+            </section>
+          </main>
+        </div>
+        {% include footer.html %}   
+    </body>
+</html>

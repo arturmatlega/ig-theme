@@ -5,7 +5,7 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-toc', '~> 0.12.2'
 gem 'jekyll-sitemap'
 
-gem 'amp-jekyll'
+
 gem 'sanitize', '~> 5.1.0'
 gem "pry", '~> 0.12.2'
 

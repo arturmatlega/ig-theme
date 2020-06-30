@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'pl' }}">
+    <head>
+        {% include head.html %}
+        <!--Dane struklturalne dla każdego layoutu-->
+    </head>
+    <body>    
+        {% include top-line.html %}
+        <div class="beams-wrapper global-beam-wrapper">
+          <main class="beam content">
+            <section class="beam-item markdown">                    
+              <h1>{{page.page_header}}</h1>
+              {{page.page_intro | markdownify}}                 
+            </section>
+            <section class="beam-item posts">       
+              <h2 class="h1">{{site.data.translations.lastPosts}}</h2>
+              <p>{{ page.blog_intro | markdownify }}</p>
+              <ul class="beam b-size-6 posts-grid">
+                {% assign related = site.posts %}
+                {% for post in related limit: 2 %}
+                      <li class="beam-item b-size-3">
+                        {% include post-item.html %}
+                      </li>
+                {% endfor %}
+              </ul>
+              <a href="/blog.html" class="show-all">{{site.data.translations.allPosts}} </a>
+            </section>
+          </main>          
+        </div>
+        {% include footer.html %}   
+    </body>
+</html>

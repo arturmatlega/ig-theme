@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'pl' }}">
+    <head>
+        {% include head.html %}
+        <!--Dane struklturalne dla każdego layoutu-->
+    </head>
+    <body>    
+        {% include top-line.html %}
+        <div class="beams-wrapper global-beam-wrapper">
+            <main class="beam">
+                <div class="beam-item">
+                  <nav class="breadcrumbs">
+                    <ol>
+                    {% for page in site.pages %}
+                      {% if  page.pagename == "home" %}
+                        <li><a href="{{page.url}}">{{page.menu_title}}</a></li>                        
+                      {% endif %}
+                    {% endfor %}
+                    <li><a href="{{page.url}}">{{page.menu_title}}</a></li>
+                    </ol>
+                  </nav>
+                </div>
+                <div class="beam-item page-content">
+                    <h1>{{page.page_header}}</h1>
+                    {{ content }}
+                </div>
+            </main>
+        </div>
+        {% include footer.html %}   
+    </body>
+</html>

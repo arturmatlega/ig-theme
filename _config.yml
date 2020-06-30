@@ -1,28 +1,22 @@
-title: "instalguru"
-email: ""
-description: ""
+title: "Instalguru"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username:  ""
 lang: "pl"
+photo: "/assets/img/default.jpg"
 
 markdown: kramdown
 
 sass:
-  sass_dir: _scss
   style: compressed
 
 toc:
   min_level: 2
-  max_level: 2
+  max_level: 3
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-toc
-
-ampdir: amp
 
 collections:
   posts:    
