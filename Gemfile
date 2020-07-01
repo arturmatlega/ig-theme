@@ -6,7 +6,7 @@ gem 'jekyll-toc', '~> 0.12.2'
 gem 'jekyll-sitemap'
 
 
-gem 'sanitize', '~> 5.1.0'
+gem 'sanitize', '~> 5.2.1'
 gem "pry", '~> 0.12.2'
 
 group :jekyll_plugins do
