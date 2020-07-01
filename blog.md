@@ -2,7 +2,8 @@
 layout: blog
 pagename: blog
 seo_title:  SEO Blog
-seo_description: MEAT Blog
+seo_description: |-
+  MEAT Blog
 menu: true
 menu_title: Blog
 page_header: PAGE Blog

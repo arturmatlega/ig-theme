@@ -2,7 +2,8 @@
 layout: page
 pagename: aboutus
 seo_title:  SEO O nas
-seo_description: MEAT O nas
+seo_description: |-
+  MEAT O nas
 menu: true
 menu_title: O nas
 page_header: PAGE O nas
