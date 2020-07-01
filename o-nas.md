@@ -5,7 +5,7 @@ seo_title:  SEO O nas
 seo_description: MEAT O nas
 menu: true
 menu_title: O nas
-
+page_header: PAGE O nas
 hreflangs:
   -
     lang: pl
@@ -25,7 +25,5 @@ hreflangs:
   -
     lang: es
     link: https://instalguru.es/
-
-page_header: PAGE O nas
 ---
 Content strony o nas

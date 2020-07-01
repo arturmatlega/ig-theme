@@ -2,6 +2,22 @@
 <html lang="{{ page.lang | default: site.lang | default: 'pl' }}">
     <head>
         {% include head.html %}
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "{{page.menu_title}}",
+                    "item": "{{page.url | absolute_url}}"
+                  }]
+                }
+            ]
+        }
+        </script>
         <!--Dane struklturalne dla każdego layoutu-->
     </head>
     <body>    

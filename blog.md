@@ -5,7 +5,7 @@ seo_title:  SEO Blog
 seo_description: MEAT Blog
 menu: true
 menu_title: Blog
-
+page_header: PAGE Blog
 hreflangs:
   -
     lang: pl
@@ -25,7 +25,5 @@ hreflangs:
   -
     lang: es
     link: https://instalguru.es/
-
-page_header: PAGE Blog
 ---
 Contet strony blog

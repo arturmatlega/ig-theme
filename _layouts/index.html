@@ -2,6 +2,18 @@
 <html lang="{{ page.lang | default: site.lang | default: 'pl' }}">
     <head>
         {% include head.html %}
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                  "@type": "WebSite",
+                  "name": "{{site.title}}",
+                  "url": "{{site.url}}"
+                }
+            ]
+        }
+        </script>
         <!--Dane struklturalne dla każdego layoutu-->
     </head>
     <body>    

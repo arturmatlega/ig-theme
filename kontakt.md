@@ -5,7 +5,7 @@ seo_title:  SEO Kontakt
 seo_description: META Kontakt
 menu: true
 menu_title: Kontakt
-
+page_header: PAGE Kontakt
 hreflangs:
   -
     lang: pl
@@ -25,7 +25,5 @@ hreflangs:
   -
     lang: es
     link: https://instalguru.es/
-
-page_header: PAGE Kontakt
 ---
 Content strony kontakt
