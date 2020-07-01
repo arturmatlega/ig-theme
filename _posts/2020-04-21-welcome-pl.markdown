@@ -16,7 +16,7 @@ photo_desc: Tutaj jest podpis do zdjęcia
 faq:
   -
     question: Tutaj mamy przykładowe pytanie?
-    answer: odpowiedz 1
+    answer: odpowiedz 23
   -
     question: pytanko 2
     answer: odpowiedz 2
