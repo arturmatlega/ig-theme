@@ -27,4 +27,4 @@ hreflangs:
     lang: es
     link: https://instalguru.es/
 ---
-Content strony kontakt
+Donec consequat tellus ac placerat ultrices. Nunc rutrum egestas sem. Mauris at posuere velit, nec scelerisque magna. Morbi eget lectus sit amet tortor maximus ornare.

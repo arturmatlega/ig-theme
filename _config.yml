@@ -1,6 +1,6 @@
 title: "Instalguru"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "instalguru.pl" # the base hostname & protocol for your site, e.g. http://example.com
 lang: "pl"
 photo: "/assets/img/default.jpg"
 
