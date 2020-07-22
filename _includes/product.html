@@ -1,0 +1,21 @@
+<div class="flex-item">
+    <a href="{{ productlink }}" class="product-listing-boxitem-md {{producttype}}">
+      <div class="img-section">
+        <img class="img" src="{{ productphoto }}" alt="alt">
+      </div>
+      <div class="desc-section">
+        <header class="header">
+          <h4 class="title">{{ productname }}</h4>
+          <p class="subtitle">{{productprice }}</p>
+        </header>
+        <div class="content">
+          <p>{{ productdesc }}</p>
+        </div>
+        <footer class="footer">
+          <div class="buttons">
+            <p class="btn">{{site.data.translations.buynow}}</p>        
+          </div>
+        </footer>
+      </div>
+    </a>
+  </div>

@@ -56,12 +56,65 @@ hreflangs:
 
 Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastosowanie w systemach ogrzewania podłogowego. Dzięki niemu możliwa jest kontrola prawidłowej pracy instalacji. Zawory termostatyczne umożliwiają regulację przepływu czynnika w podłogówce, co przekłada się również na możliwość ustawienia odpowiedniej dla użytkownika temperatury.
 
+<div class="flex-wrapper">
+  <div class="flex-container">
+
+    {% assign producttype ="normal" %}
+    {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
+    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productname = "Głowica 1 termostatyczna M30 x 1,5" %}
+    {% assign productprice = "12,99 zł" %}
+    {% assign productdesc = "Wyprodukowana w polskiej fabryce" %}
+    {% include product.html %}
+
+    {% assign producttype ="normal" %}
+    {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
+    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productname = "Głowica 2 termostatyczna M30 x 1,5" %}
+    {% assign productprice = "12,99 zł" %}
+    {% assign productdesc = "Wyprodukowana w polskiej fabryce" %}
+    {% include product.html %}
+
+    {% assign producttype ="normal" %}
+    {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
+    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productname = "Głowica 3 termostatyczna M30 x 1,5" %}
+    {% assign productprice = "12,99 zł" %}
+    {% assign productdesc = "Wyprodukowana w polskiej fabryce" %}
+    {% include product.html %}
+  
+    {% assign producttype ="promted" %}
+    {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
+    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productname = "Głowica 3 termostatyczna M30 x 1,5" %}
+    {% assign productprice = "12,99 zł" %}
+    {% assign productdesc = "Wyprodukowana w polskiej fabryce" %}
+    {% include product.html %}
+
+    {% assign producttype ="normal" %}
+    {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
+    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productname = "Głowica 3 termostatyczna M30 x 1,5" %}
+    {% assign productprice = "12,99 zł" %}
+    {% assign productdesc = " " %}
+    {% include product.html %}
+  
+    {% assign producttype ="promted" %}
+    {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
+    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productname = "Głowica 3 termostatyczna M30 x 1,5" %}
+    {% assign productprice = "12,99 zł" %}
+    {% assign productdesc = "Wyprodukowana w polskiej fabryce" %}
+    {% include product.html %}
+
+  </div>
+</div>
+
 {:.distinction.distinction-quotation}
 Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastosowanie w systemach ogrzewania podłogowego. Dzięki niemu możliwa jest kontrola prawidłowej pracy instalacji. Zawory termostatyczne umożliwiają regulację przepływu czynnika w podłogówce, co przekłada się również na możliwość ustawienia odpowiedniej dla użytkownika temperatury.
 
 {:.distinction.distinction-info.distinction-positive}
 Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastosowanie w systemach ogrzewania podłogowego. Dzięki niemu możliwa jest kontrola prawidłowej pracy instalacji. Zawory termostatyczne umożliwiają regulację przepływu czynnika w podłogówce, co przekłada się również na możliwość ustawienia odpowiedniej dla użytkownika temperatury.
-
 
 {:.distinction.distinction-question.distinction-negative}
 Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastosowanie w systemach ogrzewania podłogowego. Dzięki niemu możliwa jest kontrola prawidłowej pracy instalacji. Zawory termostatyczne umożliwiają regulację przepływu czynnika w podłogówce, co przekłada się również na możliwość ustawienia odpowiedniej dla użytkownika temperatury.
