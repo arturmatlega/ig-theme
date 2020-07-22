@@ -61,7 +61,7 @@ Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastos
 
     {% assign producttype ="normal" %}
     {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
-    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productphoto = "../uploads/products/small_Głowica_termostatyczna_T-03_5.jpg" %}
     {% assign productname = "Głowica 1 termostatyczna M30 x 1,5" %}
     {% assign productprice = "12,99 zł" %}
     {% assign productdesc = "Wyprodukowana w polskiej fabryce" %}
@@ -69,7 +69,7 @@ Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastos
 
     {% assign producttype ="normal" %}
     {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
-    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productphoto = "../uploads/products/small_Głowica_termostatyczna_T-03_5.jpg" %}
     {% assign productname = "Głowica 2 termostatyczna M30 x 1,5" %}
     {% assign productprice = "12,99 zł" %}
     {% assign productdesc = "Wyprodukowana w polskiej fabryce" %}
@@ -77,7 +77,7 @@ Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastos
 
     {% assign producttype ="normal" %}
     {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
-    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productphoto = "../uploads/products/small_Głowica_termostatyczna_T-03_5.jpg" %}
     {% assign productname = "Głowica 3 termostatyczna M30 x 1,5" %}
     {% assign productprice = "12,99 zł" %}
     {% assign productdesc = "Wyprodukowana w polskiej fabryce" %}
@@ -85,7 +85,7 @@ Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastos
   
     {% assign producttype ="promted" %}
     {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
-    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productphoto = "../uploads/products/small_Głowica_termostatyczna_T-03_5.jpg" %}
     {% assign productname = "Głowica 3 termostatyczna M30 x 1,5" %}
     {% assign productprice = "12,99 zł" %}
     {% assign productdesc = "Wyprodukowana w polskiej fabryce" %}
@@ -93,7 +93,7 @@ Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastos
 
     {% assign producttype ="normal" %}
     {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
-    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productphoto = "../uploads/products/small_Głowica_termostatyczna_T-03_5.jpg" %}
     {% assign productname = "Głowica 3 termostatyczna M30 x 1,5" %}
     {% assign productprice = "12,99 zł" %}
     {% assign productdesc = " " %}
@@ -101,7 +101,7 @@ Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastos
   
     {% assign producttype ="promted" %}
     {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
-    {% assign productphoto = "https://api.instalguru.com/uploads/spree/image/attachment/4439/small_G%C5%82owica_termostatyczna_T-03_5.jpg" %}
+    {% assign productphoto = "../uploads/products/small_Głowica_termostatyczna_T-03_5.jpg" %}
     {% assign productname = "Głowica 3 termostatyczna M30 x 1,5" %}
     {% assign productprice = "12,99 zł" %}
     {% assign productdesc = "Wyprodukowana w polskiej fabryce" %}
