@@ -644,7 +644,7 @@ $top-line-height: 70px;
         flex-flow: row wrap;
         margin-left: -$beam-gutter-size/3;
         margin-right: -$beam-gutter-size/3;
-        .products-item {
+        .product-item {
             flex: 1 0 230px;
             margin: 0 $beam-gutter-size/3 $beam-gutter-size/2;
             &:last-child {
