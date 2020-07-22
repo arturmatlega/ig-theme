@@ -56,8 +56,8 @@ hreflangs:
 
 Zawór termostatyczny to podstawowy element wyposażenia, które znajduje zastosowanie w systemach ogrzewania podłogowego. Dzięki niemu możliwa jest kontrola prawidłowej pracy instalacji. Zawory termostatyczne umożliwiają regulację przepływu czynnika w podłogówce, co przekłada się również na możliwość ustawienia odpowiedniej dla użytkownika temperatury.
 
-<div class="flex-wrapper">
-  <div class="flex-container">
+<div class="products-wrapper">
+  <div class="products-container">
 
     {% assign producttype ="normal" %}
     {% assign productlink = "https://instalguru.com/pl/products/glowica-termostatyczna-t-03?variant_id=1568" %}
