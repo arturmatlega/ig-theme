@@ -29,7 +29,7 @@
               <p>{{ page.blog_intro | markdownify }}</p>
               <ul class="beam b-size-6 posts-grid">
                 {% assign related = site.posts %}
-                {% for post in related limit: 2 %}
+                {% for post in related limit: 4 %}
                       <li class="beam-item b-size-3">
                         {% include post-item.html %}
                       </li>
