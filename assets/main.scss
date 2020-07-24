@@ -728,7 +728,7 @@ $top-line-height: 70px;
                     margin-right: 10px;
                     background-color: $warning;
                     padding: 5px 15px;
-                    color: $gray-0;
+                    color: $black-0;
                     text-transform: uppercase;
                     letter-spacing: 1px;
                 }
@@ -738,10 +738,11 @@ $top-line-height: 70px;
     
     &.promoted {
         border-color: $warning;
+        border-width: 2px;
         .desc-section {
             .header {                
                 .subtitle {
-                    color: $warning;
+                    // color: $warning;
                 }
             }
         }
