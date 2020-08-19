@@ -1,19 +1,19 @@
 <section class="product-item">
     <a href="{{ productlink }}" class="product-listing-boxitem-md {{producttype}} shop-item" rel="nofollow noopener" target="_blank">
       <div class="img-section">
-        <img class="img" src="{{ productphoto }}" alt="alt">
+        <img class="img shop-item" src="{{ productphoto }}" alt="alt">
       </div>
       <div class="desc-section">
         <header class="header">
-          <p class="h4 title">{{ productname }}</p>
-          <p class="subtitle">{{productprice }}</p>
+          <p class="h4 title shop-item">{{ productname }}</p>
+          <p class="subtitle shop-item">{{productprice }}</p>
         </header>
         <div class="content">
-          <p>{{ productdesc }}</p>
+          <p class="shop-item">{{ productdesc }}</p>
         </div>
         <footer class="footer">
           <div class="buttons">
-            <p class="btn">{{site.data.translations.buynow}}</p>        
+            <p class="btn shop-item">{{site.data.translations.buynow}}</p>        
           </div>
         </footer>
       </div>
