@@ -39,9 +39,12 @@
 
 <link rel="stylesheet" href="/assets/main.css?v=1">
 
+{% if site.scvarificationnumber %}
 <!-- Google Search Console -->
 <meta name="google-site-verification" content="{{site.scvarificationnumber}}" />
-<!-- End Google Search Console -->
+<!-- End Google Search Console -->    
+{% endif %}
+{% if site.analyticsvarificationnumber %}
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.analyticsvarificationnumber}}"></script>
 <script>
@@ -55,6 +58,9 @@
 });
 </script>
 <!-- End Google Analytics -->
+{% endif %}
+
+{% if site.gtagmanagervarificationnumber %}
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -62,3 +68,10 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','{{site.gtagmanagervarificationnumber}}');</script> 
 <!-- End Google Tag Manager -->
+{% endif %}
+
+{% if site.optimizevarificationnumber %}
+<!-- Google Optimie -->
+<script src="https://www.googleoptimize.com/optimize.js?id={{site.optimizevarificationnumber}}"></script>
+<!-- End Google Optimie -->
+{% endif %}
