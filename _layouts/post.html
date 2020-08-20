@@ -6,6 +6,7 @@
           {
             "@context": "https://schema.org",
             "@graph": [
+              {% if page.faq[0] %}  
                 {
                   "@type": "FAQPage",
                   "mainEntity": [
@@ -26,6 +27,7 @@
                   {% endfor %}
                   ]
                 },
+                {% endif %}
                 {
                   "@type": "BreadcrumbList",
                   "itemListElement": [{
