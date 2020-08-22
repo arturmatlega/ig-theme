@@ -538,7 +538,7 @@ $top-line-height: 70px;
     margin-bottom: 40px;
     .show-all {
         display: inline-block;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 }
 
@@ -776,5 +776,6 @@ $top-line-height: 70px;
 .random-links {
     .links-content {
         margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
