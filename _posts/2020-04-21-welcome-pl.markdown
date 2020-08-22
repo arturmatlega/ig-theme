@@ -39,6 +39,9 @@ hreflangs:
     lang: pl
     link: https://instalguru.pl/
   -
+    lang: en
+    link: https://instalguru.co.uk/
+  -
     lang: cs
     link: https://instalguru.cs/
   -
