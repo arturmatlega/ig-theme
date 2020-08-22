@@ -84,6 +84,19 @@ a {
     text-decoration: none;
     color: $main;
 }
+.btn {
+    display: inline-flex;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    &.btn-border {
+        padding: 3px 12px;
+        border: 1px solid #F0F4F4;
+        &:hover {
+            
+        border: 1px solid #037C87;
+        }
+    }
+}
 figure {
     margin-left: 0px;
     margin-right: 0px;
@@ -535,7 +548,13 @@ $top-line-height: 70px;
     padding: 0;
     margin-top: 40px;
 }
-
+@media (max-width: 570px) {
+    .beam.posts-grid {
+        .beam-item {
+            flex-basis: 100%;
+        }
+    }
+}
 //Post
 .post-item {
     width: 100%;
@@ -751,5 +770,11 @@ $top-line-height: 70px;
         box-shadow: 0px 2px 10px rgba(15, 29, 53, 0.15);
         transform: translateY(-4px);
         
+    }
+}
+
+.random-links {
+    .links-content {
+        margin-top: 40px;
     }
 }
