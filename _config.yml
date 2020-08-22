@@ -3,11 +3,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "instalguru.pl" # the base hostname & protocol for your site, e.g. http://example.com
 lang: "pl"
 photo: "/assets/img/default.jpg"
-scvarificationnumber:
-analyticsvarificationnumber:
-gtagmanagervarificationnumber:
-optimizevarificationnumber:
-ahrefsvarificationnumber:
+scvarificationnumber: dfdssdfdsdf
+analyticsvarificationnumber: asdas
+gtagmanagervarificationnumber: asdasd
+optimizevarificationnumber: asdasd 
+ahrefsvarificationnumber: sdfasf
 
 markdown: kramdown
 
