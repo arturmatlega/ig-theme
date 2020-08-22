@@ -1,7 +1,7 @@
 <section class="beam-item random-links">       
     <h2 class="h1">{{site.data.translations.random_links_title}}:</h2>
     <div class="links-content">
-        {% assign articles = site.posts  | sample: 10 %}
+        {% assign articles = site.posts  | sample: 11 %}
         {% for item in articles %}
         {% assign main_keywords = item.main_keywords | sample: 1 %}
         {% if main_keywords %}
