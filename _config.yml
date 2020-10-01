@@ -27,3 +27,11 @@ plugins:
 collections:
   posts:    
     permalink: /blog/:title:output_ext
+
+defaults:   
+  -
+    scope:
+      path: "landings"
+    values:
+      permalink: landing/:basename
+      sitemap: false

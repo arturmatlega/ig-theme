@@ -4,7 +4,11 @@
 
 <title>{{page.seo_title}}</title>
 <meta name="description" content="{{page.seo_description}}">
-<link rel="canonical" href="{{page.url | absolute_url}}">
+{% if page.canonical_url %}
+  <link rel="canonical" href="{{page.canonical_url | absolute_url}}">
+{% else %}
+  <link rel="canonical" href="{{page.url | absolute_url}}">
+{%endif%}
 
 
 {% for heflang in page.hreflangs %}
@@ -41,8 +45,9 @@
 <meta property="twitter:description" content="{{ page.seo_description }}">
 <meta property="twitter:image" content="{{ page.photo | default: site.photo | absolute_url }}">
 
+{% if page.layout != "landing" %}
 <link rel="stylesheet" href="/assets/main.css?v=1">
-
+{%endif%}
 
 {% if site.facebookpixelnumber %}
 <!-- Facebook Pixel Code -->

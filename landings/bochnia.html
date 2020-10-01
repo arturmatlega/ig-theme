@@ -1,0 +1,358 @@
+---
+layout: landing
+seo_title:  Instalguru Bochnia | 10% Rabatu
+seo_description: |-
+    Instalguru Bochnia | 10% Rabatu
+menu: false
+canonical_url: https://instalguru.pl
+---
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    *,
+    ::before,
+    ::after {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0 auto;
+        background-color: #FAFBFC;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+
+    }
+    .wrapper {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        min-height: 100vh;
+    }
+    .bg {
+        position: absolute;
+        z-index: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    a {
+        color: #009BA9;
+        text-decoration: none;
+    }
+    .container {
+        position: relative;
+        z-index: 1;
+        max-width: 700px;
+        margin:  0 30px;
+    }
+    .header {
+        margin: 45px 0 35px 0;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+    .header .more {
+        text-align: right;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+    }    
+    .header .more .localization {
+        font-size: 16px;
+    }
+    .header .more .localization img {
+        position: relative;
+        top: 6px
+    }
+    .header .more .hours {
+        font-size: 12px;
+    }
+    .header .more .hr {
+        background-color: #F0F4F4;
+        height: 2px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    .header .more .website {
+        max-width: 250px;
+    }
+    @media (max-width: 600px) {        
+        .header {
+            margin: 35px 0 35px 0;
+        }
+        .header .logo {
+            padding-bottom: 30px;
+        }
+        
+        .header .more .hr {
+            width: 100%;
+        }
+        .header {
+            flex-flow: column;
+            align-items: center;
+        }
+        
+        .header .more {
+            text-align: center;
+        }
+    }
+
+
+    .boxes {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+    .boxes > div {
+        max-width: calc(50% - 20px);
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 15px 15px 30px rgba(15, 29, 53, 0.1);
+        border-radius: 3px;
+    }
+    .box-left .title {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .box-left .hr {
+        background-color: #F0F4F4;
+        height: 2px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .box-left .content {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .box-left .content span {
+        font-weight: bold;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color:#fff;
+        margin: 0 5px;
+    }    
+    .box-left .content span::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top:0px;
+        left: -5px;
+        width: calc(100% + 10px);
+        height: calc(100% + 0px);
+        background-color: #E42920;
+        z-index: -1;
+        border-radius: 3px;;
+    }    
+    .box-left .label {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+        color: #576172;
+    }   
+    .box-left .code {
+        margin: 0;
+        padding: 5px 10px;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 14px;
+        color: #F7AA12;
+        border: solid 2px #F7AA12;
+        border-radius: 3px;
+    }
+
+    .box-right {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .box-right * {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .box-right .content {
+        padding-bottom: 20px;
+    }
+    .box-right .label {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+        color: #576172;
+    }   
+    .counter {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+    .counter > * {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .counter > * .number {
+        line-height: 50px;
+        width: 50px;
+        text-align: center;
+        border: solid 2px #E5EBEE;
+        margin: 5px;
+        border-radius: 3px;
+        font-size: 18px;
+    }
+    @media (max-width: 600px) {             
+        .boxes {
+            flex-flow: column;
+        }
+        .boxes > div {
+            max-width: 100%;
+        }
+        
+        .boxes > div:nth-child(1) {
+            margin-bottom: 40px;
+        }
+    }
+
+    .footer {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        background-color: #fff;
+        padding: 10px 30px;
+        box-shadow: 15px 15px 30px rgba(15, 29, 53, 0.1);
+        border-radius: 3px;
+    }
+    .regulations {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        background-color: #fff;
+        padding: 10px 30px;
+        box-shadow: 15px 15px 30px rgba(15, 29, 53, 0.1);
+        border-radius: 3px;
+        display: none;
+    }
+    
+    .regulations.open {
+        display: block;
+    }
+    #regulations-btn {
+        cursor: pointer;
+        color: #009BA9;
+    }
+</style>
+<div class="wrapper">
+    <img class ="bg" src="/uploads/landings/bg.jpg" alt="">
+    <div class="container">
+        <div class="header">
+            <div class="logo"><img src="/uploads/landings/logo.svg" alt=""></div>
+            <div class="more">
+                <div class="localization">
+                    <a href="https://www.google.com/maps/place/InstalGuru.com/@49.953424,20.431155,15z/data=!4m2!3m1!1s0x0:0x874468bc475a5ec7?sa=X&ved=2ahUKEwiq_cqGtZPsAhUjsKQKHRwSB2AQ_BIwC3oECBAQBQ" target="_blank" class="address"><img src="/uploads/landings/icon-localization.svg" alt=""> ul. Strzelecka 2, 32-700 Bochnia</a>
+                    <div class="hours">Sklep czynny: Pon. - Pt.  8:00 - 16:00</div>
+                </div>
+                <div class="hr"></div>
+                <div class="website">
+                    <p>Dostępny asortyment
+                        sprawdzisz na <a href="https://instalguru.com/pl" target="_blank">instalguru.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="box-left">
+                <h1 class="title">Gratulacja</h1>
+                <div class="hr"></div>
+                <p class="content">Otrzymujesz   <span>10% rabatu*</span>   na cały asortyment.</p>
+                <p class="label">Kod rabatowy:</p>
+                <p class="code">instalgurubochnia5536</p>
+            </div>
+            <div class="box-right">
+                <p class="content">Nie przegap okazji, którą przygotowaliśmy specjalnie dla Ciebie.
+                    <b>Promocja jest ograniczona czasowo!</b></p>
+                    <p class="label">Do końca ważności kodu pozostało:</p>
+                    <div class="counter">
+                        <div class="days">
+                            <div id="counter-days" class="number">-</div>
+                            <div class="label">Dni</div>
+                        </div>
+                        <div class="hours">
+                            <div id="counter-hours" class="number">-</div>
+                            <div class="label">Godz.</div>
+                        </div>
+                        <div class="minutes">
+                            <div id="counter-minutes" class="number">-</div>
+                            <div class="label">Min.</div>
+                        </div>
+                        <div class="seconds">
+                            <div id="counter-seconds" class="number">-</div>
+                            <div class="label">Sek.</div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>* Zniżka obowiązuje wyłącznie podczas zakupów w sklepie stacjonarnym. Kod rabatowy należy podać sprzedawcy przed zakończeniem sprzedaży i zapłatą za towar.</p>
+            <p>Przeczytaj <span id="regulations-btn" onclick="menuButtonAction()">regulamin promocji</span></p>
+        </div>
+        <div class="regulations" id="regulations-cnt">
+            <h2>Regulamin</h2>
+            <h3>§ 1. POSTANOWIENIA OGÓLNE</h3>
+            <p> 1. Organizatorem akcji promocyjnej jest Sklep internetowy InstalGuru, prowadzony przez firmę Tradecron Matlęga Sp.j., z siedzibą w: ul. Strzelecka 2, 32-700 Bochnia, która jest wpisana do Centralnej Ewidencji i Informacji o Działalności Gospodarczej (CEIDG), o numerze NIP: 8681973296, REGON: 382365369 (zwana dalej „Organizatorem”).</p>
+            <h3>§ 2. UCZESTNICY AKCJI PROMOCYJNEJ</h3>
+            <p> 1. Uczestnikami akcji promocyjnej mogą być wyłącznie osoby fizyczne, konsumenci w rozumieniu art. 221 kodeksu cywilnego, posiadające pełną zdolności do czynności prawnych, które zaakceptowały niniejszy Regulamin (dalej: „Uczestnik”). </p>
+            <p> 2. Uczestnik oświadcza, że:</p>
+            <p> a. jest osobą fizyczną, posiadającą pełną zdolność do czynności prawnych;</p>
+            <p> b. zapoznał się z treścią niniejszego Regulaminu i w sposób dobrowolny przystępuje do akcji promocyjnej.</p>
+            <h3>§ 3. MIEJSCE, CZAS I ZASADY AKCJI PROMOCYJNEJ</h3>
+            <p> 1. Akcja promocyjna ogłoszona jest na portalu społecznościowym Facebook na profilu InstalGuru pod adresem https://www.facebook.com/instalgurubochnia. Skierowana jest do klientów sklepu stacjonarnego znajdującego się przy ul. Strzeleckiej 2, którzy mogą z niej skorzystać po odebraniu kodu zniżkowego znajdującego się na stronie LINK (landing page).</p>
+            <p> 2. Pozyskany kod uprawnia do 10% rabatu na zakupy realizowane bezpośrednio w sklepie stacjonarnym przy ul. Strzeleckiej 2. Akcji promocyjnej nie podlegają zakupy w sklepie internetowym instalguru.com, a także przez platformy sprzedażowe: Allegro, Ebay, Amazon. </p>
+            <p> 3. Akcja trwa od dnia 01.10.2020 do 31.10.2020.</p>
+            <p> 4. Każdy z klientów ma możliwość wielokrotnego wykorzystania kodu rabatowego. Ograniczeniem akcji promocyjnej jest czas jej trwania - określony w § 3.3.</p>
+            <p> 5. Realizacja kodu rabatowego odbywa się przez podanie go sprzedawcy podczas zakupów - przed zakończeniem sprzedaży i zapłatą za towar.</p>
+            <p> 6. Przyznany w ramach promocji rabat nie łączy się z innymi promocjami i zniżkami. Po zrealizowaniu zakupu nie ma możliwości późniejszego odjęcia kwoty od rachunku.</p>
+            
+        </div>
+    </div>
+</div>
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Oct 23, 2020 16:00:00").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("counter-days").innerHTML = days;
+      document.getElementById("counter-hours").innerHTML = hours;
+      document.getElementById("counter-minutes").innerHTML = minutes;
+      document.getElementById("counter-seconds").innerHTML = seconds;
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+            clearInterval(x);
+            document.getElementsByClassName("counter").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+
+    function menuButtonAction() {
+      const menuButton = document.querySelector("#regulations-btn"),
+          menuContainer = document.querySelector("#regulations-cnt");
+          menuContainer.classList.toggle("open");
+  }
+    
+    </script>
